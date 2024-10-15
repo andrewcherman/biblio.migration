@@ -17,7 +17,7 @@ The simplest way to install the package is to use install.github() from the devt
 
 ```
 install.packages('devtools')
-install.github('andrewcherman/biblio.migration')
+install.github('andrewcherman/biblio.migration/biblio.migration')
 ```
 
 ## General workflow
