@@ -1,0 +1,18 @@
+Package: biblio.migration
+Title: Inferring mobility events from bibliometric data
+Version: 0.1
+Authors@R: 
+    person("Andrew", "Herman", , "andrew.herman@soc.ku.dk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7547-2481"))
+Description: Infers mobility events from bibliometric data, implementing the
+    tenure events method from Herman, A., (Forthcoming), "Reconstructing
+    bibliometric methods for studying mobility." Classifies peoples' changes
+    in affiliations as being migration or temporary migration, according to
+    model parameters for backfilling missing affiliation data, tenure overlap
+    between affiliations, and the duration of temporary positions. The package
+    also identifies events that may have been mobility events, but which are
+    ambiguous because of censoring or affiliation reporting.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2.9000
