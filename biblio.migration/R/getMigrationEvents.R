@@ -107,7 +107,7 @@ classifyMigrationEvents <- function(temp_data, focal_year, allowable_overlap){
             # Check if there is a rupture as defined by the overlap
             new_start_year <= old_end_year &
             new_end_year > old_end_year &
-            old_end_year - new_start_year <= allowable_overlap
+            old_end_year - new_start_year <= allowable_overlap + 1
           )
         )
       ),
