@@ -90,3 +90,9 @@ mobility_events <- getMobilityEvents(
   allowable_overlap_migration = 3
 )
 ```
+
+## Citation
+Please use the following citation if you use *biblio.migration* in your work:
+
+Herman, A., (Forthcoming), "Reconstructing bibliometric methods for studying mobility."
+
