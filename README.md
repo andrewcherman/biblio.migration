@@ -1,8 +1,8 @@
-# biblio.migration
+# biblio.migration (Version 1.0.0)
 Infers mobility events from bibliometric data, implementing the tenure events method from Herman, A., (Forthcoming), "Reconstructing bibliometric methods for studying mobility." Classifies peoples' changes in affiliations as being migration or temporary migration, according to model parameters for backfilling missing affiliation data, tenure overlap between affiliations, and the duration of temporary positions. The package also identifies events that may have been mobility events, but which are ambiguous because of censoring or affiliation reporting.
 
 ## Framework
-The tenure events method relies on converting paper-author-affiliation-time tuples into "tenures," uninterrupted periods wherein people were connected to a given affiliation, and using the patterns between those tenures to infer mobility. As described in Herman (Unpublished) ([Pre-print](#)), the method identifies migration, temporary migration, alongside several types of censoring and ambiguity, including multiple affiliations. The method is agnostic to the user's choice of units for geography and time.
+The tenure events method relies on converting paper-author-affiliation-time tuples into "tenures," uninterrupted periods wherein people were connected to a given affiliation, and using the patterns between those tenures to infer mobility. As described in Herman (Unpublished) ([Pre-print](https://doi.org/10.31219/osf.io/cn37f)), the method identifies migration, temporary migration, alongside several types of censoring and ambiguity, including multiple affiliations. The method is agnostic to the user's choice of units for geography and time.
 
 The method itself comes with three main parameters which can be modified for easy sensitivity checking:
 

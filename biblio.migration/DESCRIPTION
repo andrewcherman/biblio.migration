@@ -1,6 +1,6 @@
 Package: biblio.migration
 Title: Inferring mobility events from bibliometric data
-Version: 0.1
+Version: 1.0.0
 Authors@R: 
     person("Andrew", "Herman", , "andrew.herman@soc.ku.dk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7547-2481"))
