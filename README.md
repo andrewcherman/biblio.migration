@@ -94,5 +94,5 @@ mobility_events <- getMobilityEvents(
 ## Citation
 Please use the following citation if you use *biblio.migration* in your work:
 
-Herman, A., (Forthcoming), "Reconstructing bibliometric methods for studying mobility."
+Herman, Andrew C. (2024). “Reconstructing Bibliometric Methods for Studying Mobility.” OSF Preprints. doi:10.31219/osf.io/cn37f.
 
